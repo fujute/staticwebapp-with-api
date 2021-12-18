@@ -32,7 +32,7 @@ jobs:
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env: # Add environment variable here
-            NODE_VERION: 16.13.1
+            NODE_VERION: 14.18.2
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
